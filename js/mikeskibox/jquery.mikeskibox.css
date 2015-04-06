@@ -1,0 +1,35 @@
+
+#mikeskiboxOverlay {
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width:100%;
+    background:rgba(0,0,0,0.8);
+    display: none;
+    cursor: pointer;
+}
+
+#mikeskiboxContainer {
+    position: absolute;
+    z-index: 10000;
+    height:auto;
+    background:yellow;
+    display:none;
+
+}
+
+#mikeskiboxContent {
+    position:relative;
+    border:10px #fff solid;
+    display:none;
+    margin:0;
+    padding:0;
+}
+
+h1, img {
+        margin:0;
+    padding: 0px;
+}
